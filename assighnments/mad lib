@@ -1,0 +1,21 @@
+location = input("where does the story take place?")
+
+name_location = input("what is the name of your location?")
+
+character_name = input("what is the name of your character?")
+
+character_detail = input("what is your character doing?")
+
+conflict = input("what conflict is your character introduced to?")
+
+conflict_result= input("how did the result of the conflict turn out for the character?")
+
+solution = input("what solution to the conflict does your character propose?")
+
+solution_result = input("how did the solution work out?")
+
+overall_damage = input("how much damage did the character and their surroundings take?")
+
+solution_emotion = input("how is your character feeling after all this?")
+
+print(" our story takes place in " + location + " which is also referred to as " + name_location + " this place is home to " + character_name + " who is known for  " + character_detail + " one day however, they were caught off guard when " + conflict + " which caused " + conflict_result + " when " + character_name + " proposed a solution, which involves " + solution + " they went through with this and it turned out " + solution_result + " however it was not all over like that, as there was a lot of damage, which could be described as " + overall_damage + " despite the end result, " + character_name + " felt " + solution_emotion)
